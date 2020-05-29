@@ -1,0 +1,92 @@
+@import 'utilities.css';
+:root {
+    --font: #161616;
+    --pure: #FFFFFF;
+    --primary: #3DCFD3;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    background-color: var(--primary);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 10px;
+}
+
+.branding img {
+    width: 150px;
+    max-height: 50px;
+    object-fit: cover;
+}
+
+header nav .left a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: var(--pure);
+    height: 60px;
+    width: 60px;
+}
+
+header nav {
+    padding: 1rem;
+}
+
+header nav .branding {
+    margin-right: 2rem;
+    align-items: center;
+}
+
+header nav .left a:hover {
+    color: var(--font);
+}
+
+.about img {
+    max-width: 350px;
+    padding-left: 8rem;
+}
+
+.about .external-links {
+    justify-content: flex-end;
+}
+
+.about .external-links li {
+    list-style: none;
+    line-height: 1rem;
+}
+
+.about .external-links li ul {
+    list-style: none;
+    height: 2rem;
+    align-items: center;
+}
+
+.about .external-links li ul a {
+    text-decoration: none;
+}
+
+.about .external-links li ul a img {
+    width: 40px;
+    color: grey;
+    height: 40px;
+}
+
+.about .right h3 {
+    color: var(--font);
+}
+
+.about .right h1 {
+    color: var(--pure);
+}
+
+.about .right h1 span {
+    color: var(--font);
+}
